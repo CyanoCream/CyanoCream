@@ -2,7 +2,7 @@
   "name": "portofolio",
   "version": "0.0.0",
   "engines": {
-    "node": ">=20.13.0"
+    "node": "20.x"
   },
   "scripts": {
     "ng": "ng",
