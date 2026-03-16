@@ -1,0 +1,163 @@
+[
+  {
+    "id": "a0088c6d-d5c3-49dc-b2ee-d0cb11d1a101",
+    "name": "AWS Academy Cloud Developing",
+    "issuer": "AWS",
+    "importance": 5,
+    "verificationUrl": "https://www.credly.com/earner/earned/badge/6ac9696e-64b6-4fbf-90f6-42b26f072e9e",
+    "badgeImageUrl": "../../assets/images/certbadges/aws.png",
+    "issueDate": "2024-06-10",
+    "isCertificate": false
+  },
+  {
+    "id": "aa429d00-3231-486c-b5bd-624538e8d94e",
+    "name": "DevNet Associate",
+    "issuer": "Cisco Networking Academy",
+    "importance": 5,
+    "verificationUrl": "https://www.credly.com/earner/earned/badge/f37cd3f6-2a6b-43d3-a311-8c6da2a0c039",
+    "badgeImageUrl": "../../assets/images/certbadges/Devnet.png",
+    "issueDate": "2024-02-10",
+    "isCertificate": false
+
+  },
+  {
+    "id": "3610a499-700c-49a7-938d-678ba309a088",
+    "name": "Data Analytics Essentials",
+    "issuer": "Cisco Networking Academy",
+    "importance": 4,
+    "verificationUrl": "https://www.credly.com/earner/earned/badge/faef46b1-c6b3-4477-bc2a-f95e4896417c",
+    "badgeImageUrl": "../../assets/images/certbadges/Data-Analitycs.png",
+    "issueDate": "2023-09-27",
+    "isCertificate": false
+  },
+  {
+    "id": "f84ae615-a62f-4a2b-b80d-016b402b3083",
+    "name": "UI/UX Design Mastery (Silver)",
+    "issuer": "Skilvul",
+    "importance": 4,
+    "verificationUrl": "https://skilvul.com/courses/uiux-design-mastery/student/cl5t00urn095h01lqjqba1kk5/",
+    "badgeImageUrl": "../../assets/images/certbadges/uiux.png",
+    "issueDate": "2022-10-28",
+    "isCertificate": false
+  },
+  {
+    "id": "dd7e3e7d-59ed-4597-aed4-2c87f7c74eb0",
+    "name": "Landing Page",
+    "issuer": "Skilvul",
+    "importance": 2,
+    "verificationUrl": "https://skilvul.com/courses/bootstrap-5-membuat-website-landing-page/student/cl5t00urn095h01lqjqba1kk5/",
+    "badgeImageUrl": "../../assets/images/certbadges/Bootstrap.png",
+    "issueDate": "2022-09-22",
+    "isCertificate": false
+  },
+  {
+    "id": "1167bef5-b600-40e7-aa25-d1251eedfd61",
+    "name": "C# Basic",
+    "issuer": "Skilvul",
+    "importance": 2,
+    "verificationUrl": "https://skilvul.com/courses/csharp-dasar/student/cl5t00urn095h01lqjqba1kk5/",
+    "badgeImageUrl": "../../assets/images/certbadges/CS.png",
+    "issueDate": "2024-03-27",
+    "isCertificate": false
+  },
+  {
+    "id": "94801fd4-736a-4bc6-8dc9-663f3b763128",
+    "name": "Git & GitHub",
+    "issuer": "Skilvul",
+    "importance": 1,
+    "verificationUrl": "https://skilvul.com/courses/git-dan-github-dasar/student/cl5t00urn095h01lqjqba1kk5/",
+    "badgeImageUrl": "../../assets/images/certbadges/Git.png",
+    "issueDate": "2022-09-22",
+    "isCertificate": false
+  },
+  {
+    "id": "611c326b-e224-45dd-a309-51c8f0c902f2",
+    "name": "Intro to coding",
+    "issuer": "Skilvul",
+    "importance": 0,
+    "verificationUrl": "https://skilvul.com/courses/intro-to-coding/student/cl5t00urn095h01lqjqba1kk5/",
+    "badgeImageUrl": "../../assets/images/certbadges/Intro.png",
+    "issueDate": "2022-09-26",
+    "isCertificate": false
+  },
+  {
+    "id": "196eaf9b-72c8-48c3-99a1-36c24315fb93",
+    "name": "Scalable Web Service with Golang",
+    "issuer": "Hacktiv8",
+    "importance": 0,
+    "verificationUrl": "https://drive.google.com/file/d/1kDO6EkjMHRazmxYuzFyfrTCIqE33VHAS/view?usp=sharing",
+    "badgeImageUrl": "../../assets/images/certbadges/Go-Programming.jpg",
+    "issueDate": "2023-05-05",
+    "isCertificate": true
+  },
+  {
+    "id": "53eec3cd-8423-4b64-8aa7-8ab5d086d08e",
+    "name": "AWS Cloud Developing",
+    "issuer": "AWS Academy",
+    "importance": 0,
+    "verificationUrl": "https://drive.google.com/file/d/1yDLmlXJPkAIJFBl7ZImvaZjyPyfT4izf/view?usp=sharing",
+    "badgeImageUrl": "../../assets/images/certbadges/AWS.jpg",
+    "issueDate": "2024-05-15",
+    "isCertificate": true
+  },
+  {
+    "id": "3c78afe7-639d-4218-bea5-1e402ef8ee59",
+    "name": "Fullstack Golang VueJs: CrowdFunding Website",
+    "issuer": "BuildWith Angga",
+    "importance": 0,
+    "verificationUrl": "https://drive.google.com/file/d/1U4Mk1vd4EbJnw5MJHub-G4HZIFlGJJp8/view?usp=sharing",
+    "badgeImageUrl": "../../assets/images/certbadges/Golang-Nuxtjs.jpg",
+    "issueDate": "2024-05-15",
+    "isCertificate": true
+  },
+  {
+    "id": "79ba6783-f6bd-40f3-afac-15c65b47e78c",
+    "name": "Backend Go-todolist",
+    "issuer": "Devcode Challange",
+    "importance": 0,
+    "verificationUrl": "https://drive.google.com/file/d/1kB-3j7pbncseeweucmfL15RjoYQyni0m/view?usp=sharing",
+    "badgeImageUrl": "../../assets/images/certbadges/Go-todolist.jpg",
+    "issueDate": "2023-05-07",
+    "isCertificate": true
+  },
+  {
+    "id": "05b0b756-f6d5-467d-bc07-26b3eb9f6fd7",
+    "name": "Bootcamp Fullstack Web Developer",
+    "issuer": "Gamelab Indonesia",
+    "importance": 0,
+    "verificationUrl": "https://drive.google.com/file/d/14aUwmiyEqj-ZJ53smbt4FWXar4pNSEKm/view?usp=sharing",
+    "badgeImageUrl": "../../assets/images/certbadges/bootcamp-gamelab.jpg",
+    "issueDate": "2022-12-23",
+    "isCertificate": true
+  },
+  {
+    "id": "8efa17ac-1a2a-48fd-98ec-f8500f397ab5",
+    "name": "Website Development with Golang",
+    "issuer": "BuildWith Angga",
+    "importance": 0,
+    "verificationUrl": "https://drive.google.com/file/d/1h6nUD6f1n1w9t7WmAat7Tv3W_RT-yxDi/view?usp=sharing",
+    "badgeImageUrl": "../../assets/images/certbadges/basic-go.jpg",
+    "issueDate": "2022-12-28",
+    "isCertificate": true
+  },
+  {
+    "id": "4408b237-450a-4e8b-aa55-e4f56ba852c8",
+    "name": "React Native: Movie App",
+    "issuer": "Codepolitan",
+    "importance": 0,
+    "verificationUrl": "https://drive.google.com/file/d/1droTv4hBZd-zgiuSkAi_nD0YiNsOHEnC/view?usp=drive_link",
+    "badgeImageUrl": "../../assets/images/certbadges/react-native.jpg",
+    "issueDate": "2023-06-27",
+    "isCertificate": true
+  },
+  {
+    "id": "19ce7a6f-9f99-4114-b200-0d0a285bcff3",
+    "name": "DevNet Associate",
+    "issuer": "Cosco Academy",
+    "importance": 0,
+    "verificationUrl": "https://drive.google.com/file/d/1scvEJR_btDovAVGccHrLD6bnz_FoIxjm/view?usp=sharing",
+    "badgeImageUrl": "../../assets/images/certbadges/devnet.jpg",
+    "issueDate": "2024-03-27",
+    "isCertificate": true
+  }
+]
