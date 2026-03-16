@@ -7,8 +7,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production && mv dist/resume-app/browser public",
-    "vercel-build": "ng build --configuration production && mv dist/resume-app/browser public",
+    "build": "ng build --configuration production && mv dist/resume-app/browser vercel_dist",
+    "vercel-build": "ng build --configuration production && mv dist/resume-app/browser vercel_dist",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
