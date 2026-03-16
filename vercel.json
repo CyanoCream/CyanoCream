@@ -1,0 +1,6 @@
+{
+  "framework": "angular",
+  "buildCommand": "npm install && npx ng build --configuration production",
+  "outputDirectory": "dist/resume-app/browser",
+  "installCommand": "npm install"
+}
