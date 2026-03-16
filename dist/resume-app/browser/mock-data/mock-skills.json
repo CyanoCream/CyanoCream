@@ -524,5 +524,77 @@
     "priority": 510,
     "isHighlighted": false,
     "experienceIds": ["af1e99ea-6383-4e5e-909a-947753cd2bfc"]
+  },
+  {
+    "id": "a1b2c3d4-1111-4a1a-b1b1-111111111111",
+    "name": "Fiber",
+    "skillGroup": "Backend",
+    "priority": 218,
+    "isHighlighted": false,
+    "experienceIds": []
+  },
+  {
+    "id": "a1b2c3d4-2222-4a2a-b2b2-222222222222",
+    "name": "Elasticsearch",
+    "skillGroup": "Tools",
+    "priority": 511,
+    "isHighlighted": false,
+    "experienceIds": []
+  },
+  {
+    "id": "a1b2c3d4-3333-4a3a-b3b3-333333333333",
+    "name": "RabbitMQ",
+    "skillGroup": "Tools",
+    "priority": 512,
+    "isHighlighted": false,
+    "experienceIds": []
+  },
+  {
+    "id": "a1b2c3d4-4444-4a4a-b4b4-444444444444",
+    "name": "Kibana",
+    "skillGroup": "Tools",
+    "priority": 513,
+    "isHighlighted": false,
+    "experienceIds": []
+  },
+  {
+    "id": "a1b2c3d4-5555-4a5a-b5b5-555555555555",
+    "name": "Grafana",
+    "skillGroup": "Tools",
+    "priority": 514,
+    "isHighlighted": false,
+    "experienceIds": []
+  },
+  {
+    "id": "a1b2c3d4-6666-4a6a-b6b6-666666666666",
+    "name": "Linux",
+    "skillGroup": "Tools",
+    "priority": 515,
+    "isHighlighted": false,
+    "experienceIds": []
+  },
+  {
+    "id": "a1b2c3d4-7777-4a7a-b7b7-777777777777",
+    "name": "Next.js",
+    "skillGroup": "Frontend",
+    "priority": 113,
+    "isHighlighted": false,
+    "experienceIds": []
+  },
+  {
+    "id": "a1b2c3d4-8888-4a8a-b8b8-888888888888",
+    "name": "Rust",
+    "skillGroup": "Backend",
+    "priority": 219,
+    "isHighlighted": false,
+    "experienceIds": []
+  },
+  {
+    "id": "a1b2c3d4-9999-4a9a-b9b9-999999999999",
+    "name": "Tauri",
+    "skillGroup": "Frontend",
+    "priority": 114,
+    "isHighlighted": false,
+    "experienceIds": []
   }
 ]

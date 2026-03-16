@@ -101,7 +101,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
           relatedSkills.sort((a, b) => a.priority - b.priority),
           exp.taskPerformed,
           exp.startDate,
-          exp.endDate
+          exp.endDate,
+          exp.employmentType
         )
       );
     }

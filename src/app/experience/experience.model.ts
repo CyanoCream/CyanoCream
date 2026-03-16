@@ -11,7 +11,8 @@ export class Experience {
     public skillIds: string[],
     public taskPerformed: string[],
     public startDate: Date,
-    public endDate?: Date
+    public endDate?: Date,
+    public employmentType?: string
   ) {}
 }
 
@@ -27,7 +28,8 @@ export class ExperienceWithSkills extends Experience {
     public skills: Skill[],
     taskPerformed: string[],
     startDate: Date,
-    endDate?: Date
+    endDate?: Date,
+    employmentType?: string
   ) {
     super(
       id,
@@ -39,7 +41,8 @@ export class ExperienceWithSkills extends Experience {
       skillIds,
       taskPerformed,
       startDate,
-      endDate
+      endDate,
+      employmentType
     );
   }
 }

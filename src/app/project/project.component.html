@@ -1,17 +1,120 @@
 <section id="project">
-  <h3 class="headline-boldtext">Project Portofolio</h3>
-  <div class="headline-box">
-    <div class="contactbox">
-      <img class="contactbox-img" src="../../assets/images/project/kidoland.png" alt="photo of author">
+  <h3 class="section-title">Project Portfolio</h3>
+  <p class="section-subtitle">Some of my recent work</p>
+
+  <div class="projects-wrapper">
+
+    <!-- Project 1: SynapSync -->
+    <div class="project-card project-card--reverse">
+      <div class="project-card__visual">
+        <div class="project-card__img-wrapper">
+          <img src="../../assets/images/project/synapsync-welcome.png" alt="SynapSync Welcome"
+               class="project-card__img project-card__img--active"
+               [class.project-card__img--active]="activeImg[0] === 0"
+               (click)="openLightbox(0, 0)">
+          <img src="../../assets/images/project/synapsync-changes.png" alt="SynapSync Changes"
+               class="project-card__img"
+               [class.project-card__img--active]="activeImg[0] === 1"
+               (click)="openLightbox(0, 1)">
+          <img src="../../assets/images/project/synapsync-settings.png" alt="SynapSync Settings"
+               class="project-card__img"
+               [class.project-card__img--active]="activeImg[0] === 2"
+               (click)="openLightbox(0, 2)">
+        </div>
+        <div class="project-card__thumbs">
+          <div class="thumb" [class.thumb--active]="activeImg[0] === 0" (click)="setActive(0, 0)">
+            <img src="../../assets/images/project/synapsync-welcome.png" alt="Welcome">
+          </div>
+          <div class="thumb" [class.thumb--active]="activeImg[0] === 1" (click)="setActive(0, 1)">
+            <img src="../../assets/images/project/synapsync-changes.png" alt="Changes">
+          </div>
+          <div class="thumb" [class.thumb--active]="activeImg[0] === 2" (click)="setActive(0, 2)">
+            <img src="../../assets/images/project/synapsync-settings.png" alt="Settings">
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card__content">
+        <div class="project-card__tag">Desktop App</div>
+        <h2 class="project-card__name">SynapSync</h2>
+        <p class="project-card__tagline">A Modern Git GUI Client</p>
+        <p class="project-card__description">
+          An intelligent Git client built natively for <strong>Windows</strong>, <strong>Linux</strong>, and <strong>macOS</strong> using Rust, Tauri, and Vue.js.
+        </p>
+
+        <div class="project-card__features">
+          <div class="feature"><span class="feature__icon">🔀</span> Basic Git GUI</div>
+          <div class="feature"><span class="feature__icon">🚀</span> Git Flow</div>
+          <div class="feature"><span class="feature__icon">🔄</span> Auto Pull</div>
+          <div class="feature"><span class="feature__icon">📑</span> Multi-tab</div>
+          <div class="feature"><span class="feature__icon">🤖</span> AI Assistant</div>
+        </div>
+
+        <div class="project-card__stack">
+          <span class="chip">Rust</span>
+          <span class="chip">Tauri</span>
+          <span class="chip">Vue.js</span>
+          <span class="chip">TypeScript</span>
+        </div>
+
+        <div class="project-card__os">
+          <span class="os-badge">🪟 Windows</span>
+          <span class="os-badge">🐧 Linux</span>
+          <span class="os-badge">🍎 macOS</span>
+        </div>
+
+        <div class="project-card__btn-group">
+          <a class="project-card__btn" href="https://drive.google.com/drive/folders/1sUzzZZszxHzAO0BQKTw21MFGmmsnIMYZ?usp=sharing" target="_blank" rel="noopener">
+            🪟🐧 Windows & Linux
+          </a>
+          <a class="project-card__btn project-card__btn--secondary" href="https://drive.google.com/drive/folders/1-xHK6mi2joD9LsfCFc7nnBJj6aF-gg65?usp=sharing" target="_blank" rel="noopener">
+            🍎 macOS
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="infobox">
-      <p class="infobox-boldtext">
-        A WEB Marketplace .
-            </p>
-      <p class="infobox-slimtext">
-        Our product, Educa Studio Marketplace, is an innovative online platform tailored to cater to the diverse needs of children, offering a wide array of toys and courses specifically designed for kids. Built upon the robust Laravel and Vue.js frameworks, complemented by the flexibility of jQuery, our platform ensures a seamless and engaging user experience.
-      </p>
-      <a title="Source Title" target="_blank" href="https://github.com/CyanoCream/Educa-Studio-Marketplace">Source Repository</a>
+
+    <!-- Divider -->
+    <div class="projects-divider"></div>
+
+    <!-- Project 2: Educa Studio -->
+    <div class="project-card">
+      <div class="project-card__visual">
+        <div class="project-card__img-wrapper">
+          <img src="../../assets/images/project/kidoland.png" alt="Educa Studio Marketplace"
+               class="project-card__img project-card__img--active">
+        </div>
+      </div>
+
+      <div class="project-card__content">
+        <div class="project-card__tag">Web App</div>
+        <h2 class="project-card__name">Educa Studio Marketplace</h2>
+        <p class="project-card__tagline">A Web Marketplace for Kids</p>
+        <p class="project-card__description">
+          An innovative online platform offering a wide array of toys and courses specifically designed for children. Features a seamless shopping experience with product browsing, cart management, and secure checkout.
+        </p>
+
+        <div class="project-card__stack">
+          <span class="chip">Laravel</span>
+          <span class="chip">Vue.js</span>
+          <span class="chip">jQuery</span>
+          <span class="chip">MySQL</span>
+        </div>
+
+        <a class="project-card__btn" href="https://github.com/CyanoCream/Educa-Studio-Marketplace" target="_blank" rel="noopener">
+          📂 Source Code
+        </a>
+      </div>
     </div>
+
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox-overlay" *ngIf="lightboxOpen" (click)="closeLightbox()">
+    <button class="lightbox-overlay__close" (click)="closeLightbox()">&times;</button>
+    <img [src]="lightboxSrc" class="lightbox-overlay__img" (click)="$event.stopPropagation()">
+    <button class="lightbox-overlay__prev" (click)="$event.stopPropagation(); lbPrev()">‹</button>
+    <button class="lightbox-overlay__next" (click)="$event.stopPropagation(); lbNext()">›</button>
+    <div class="lightbox-overlay__counter">{{lbIndex + 1}} / {{lbImages.length}}</div>
   </div>
 </section>

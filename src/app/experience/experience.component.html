@@ -45,8 +45,11 @@
                     <div class="exprns-slider__details-location">
                       <span>{{exp.location}}</span>
                     </div>
-                    <span>{{exp.startDate | date: 'MMM yyyy'}} - {{exp.endDate!=null ? (exp.endDate | date: 'MMM yyyy')
-                      : "Present"}}</span>
+                    <div class="exprns-slider__details-right">
+                      <span>{{exp.startDate | date: 'MMM yyyy'}} - {{exp.endDate!=null ? (exp.endDate | date: 'MMM yyyy')
+                        : "Present"}}</span>
+                      <span *ngIf="exp.employmentType" class="exprns-slider__employment-type">{{exp.employmentType}}</span>
+                    </div>
                   </div>
                   <div class="exprns-slider__chip-group">
                     <div class="exprns-slider__chip" *ngFor="let skill of exp.skills">{{skill.name}}</div>
